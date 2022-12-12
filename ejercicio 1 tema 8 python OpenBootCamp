@@ -1,0 +1,9 @@
+print ("Introduce your name: ")
+name = input ()
+
+print ("Introduce your age: ")
+age = input ()
+
+f = open ( "mifile.txt" , "w") #create a file called mifile.txt in this case , with (,w) we give write permisions
+f.write ("Your name is : " + name + "\n" )
+f.write ("Your age is : " + age + "\n" )
